@@ -1,0 +1,18 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"> 
+   <url> 
+     <loc>http://gestople.github.io/gaas.com/</loc>
+     <video:video>
+       <video:thumbnail_loc>http://gestople.github.io/gaas.com/gaas.jpg</video:thumbnail_loc> 
+       <video:title>Gaas</video:title>
+       <video:description>This is a video by A Professional. A really good director...</video:description>
+       <video:content_loc>http://gestople.github.io/gaas.com/gaas.mp4</video:content_loc>
+       <video:duration>5</video:duration>   
+       <video:publication_date>2016-14-04T08:00:00+08:00</video:publication_date>
+       <video:family_friendly>yes</video:family_friendly>   
+       <video:restriction relationship="allow">IE GB US CA</video:restriction> 
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:live>no</video:live>
+     </video:video> 
+   </url> 
+</urlset>
