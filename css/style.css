@@ -1,0 +1,31 @@
+body {
+	font-family: 'Arial', Helvetica, Sans-serif;
+	font-weight: 18px;
+	padding: 0;
+	margin: 0;
+}
+#menu {
+	width: 100%;
+	height: 50px;
+	background: #000000;
+	display: block;
+}
+#video {
+	width: 100%;
+	text-align: center;
+}
+#video_player {
+	width: 640px;
+	height: 360px;
+	margin: 0 auto;
+	display: block;
+}
+#share {
+	display: none;
+}
+#share input {
+	width: 640px;
+}
+#share_btn {
+	color: red;
+}

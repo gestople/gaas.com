@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>Gaas</title>
+<meta charset="UTF-8">
+<meta name="classification" content="Movies">
+<meta property="og:title" content="Gaas"/>
+<meta property="og:type" content="video.other"/>
+<meta property="og:url" content="http://gestople.github.io/gaas.com/"/>
+<meta property="og:image" content="http://gestople.github.io/gaas.com/gaas.jpg"/>
+<meta property="og:video" content="http://gestople.github.io/gaas.com/gaas.mp4"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script src="https://content.jwplatform.com/libraries/dLtmS4ya.js"></script>
+<script>jwplayer.key="nISeoTz8shNafm43kuLsqdvrl6tYJVKe5Giu2w==";</script>
+
+</head>
+<body>
+<div id="menu"></div>
+<div itemscope itemtype="http://schema.org/VideoObject">
+<div id="video">
+<h3><span itemprop="name">Gaas</span> - By: <span itemprop="director">A Professional<span></h3>
+<p>Oops, I forgot to count the views...</p>
+<div id="video_player">
+<div id="myElement" itemprop="video">Loading the player...</div>
+<meta itemprop="duration" content="00:00:05"/>
+<meta itemprop="thumbnailUrl" content="http://gestople.github.io/gaas.com/gaas.jpg"/>
+<meta itemprop="description" content="This is a video by A Professional. A really good director..."/>
+<meta itemprop="uploadDate" content="2016-04-13T08:00:00+08:00"/>
+<meta itemprop="contentUrl" content="http://gestople.github.io/gaas.com/gaas.mp4"/>
+<script type="text/javascript">
+var playerInstance = jwplayer("myElement");
+playerInstance.setup({
+    file: "gaas.mp4",
+    image: "gaas.jpg",
+    width: 640,
+    height: 360,
+    title: 'Gaas.',
+    description: 'By: A Professional',
+    mediaid: '0'
+});
+</script>
+</div><br>
+<a href="javascript:;" id="share_btn">Share</a>
+<div id="share"><br>
+URL: <input type="text" value="https://gestople.github.io/gaas.com/" readonly>
+</div>
+</div>
+<script>
+$("#share_btn").click(function() {
+	$("#share").toggle("slow");
+	var text = $("#share_btn").text();
+	$("#share_btn").text(text == "Share" ? "Hide" : "Share");
+});
+</script>
+</div>
+</body>
+</html>
